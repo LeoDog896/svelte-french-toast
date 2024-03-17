@@ -36,6 +36,8 @@ const createToast = <T extends Record<string, any> = Record<string, any>>(
 	iconTheme: opts?.iconTheme,
 	position: opts?.position,
 	props: opts?.props,
+	style: opts?.style,
+	className: opts?.className,
 	id: opts?.id || genId()
 });
 
